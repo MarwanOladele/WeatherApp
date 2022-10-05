@@ -5,7 +5,6 @@ import Search from "./components/search/search";
 function App() {
   const handleOnSearchChange = (searchData) => {
     const [lat, long] = searchData.value.split(' ')
-    
   };
 
   return (
